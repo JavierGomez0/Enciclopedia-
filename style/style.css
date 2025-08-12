@@ -1,0 +1,28 @@
+.card-icon {
+      font-size: 3rem;
+      color: #3751ff;
+      padding: 20px;
+      background-color: #d4dbf9;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      text-align: center;
+    }
+    .card {
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 15px rgb(0 0 0 / 0.1);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgb(0 0 0 / 0.15);
+    }
+    .btn-leer {
+      border-color: #3751ff;
+      color: #3751ff;
+      font-weight: 600;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .btn-leer:hover {
+      background-color: #3751ff;
+      color: white;
+    }
