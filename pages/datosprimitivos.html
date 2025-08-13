@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enciclopedia: JavaScript - Datos Primitivos</title>
+  <link rel="stylesheet" href="../style/style2.css" />
+</head>
+<body>
+  <h1>JavaScript</h1>
+
+  <section class="section section1">
+    <h2>Datos Primitivos en JavaScript</h2>
+    <p class="p2">
+     En JavaScript, un primitive (valor primitivo, tipo de dato primitivo) son datos que no son un objeto y no tienen métodos. Hay 6 tipos de datos primitivos: string, number, bigint, boolean, undefined y symbol. También hay null, que aparentemente es primitivo, pero de hecho es un caso especial para cada Object: y cualquier tipo estructurado se deriva de null por la Cadena de prototipos.
+
+La mayoría de las veces, un valor primitivo se representa directamente en el nivel más bajo de la implementación del lenguaje.
+
+Todos los primitivos son inmutables, es decir, no se pueden modificar. Es importante no confundir un primitivo en sí mismo con un valor primitivo asignado a una variable. Se puede reasignar un nuevo valor a la variable, pero el valor existente no se puede cambiar de la misma forma en que se pueden modificar los objetos, los arreglos y las funciones.
+    </p>
+  </section>
+
+  <section class="section section2">
+    <h2>Tipos de datos primitivos</h2>
+    <img src="../image/datosprimitivos.jpg" class="img-fluid border" alt="Hola Mundo">
+  </section>
+
+  <section class="section section3">
+    <h2>Ejemplos de datos primitivos</h2>
+    <pre><code>let texto = "Hola Mundo";
+let numero = 42;
+let grande = 9007199254740991n;
+let esVerdadero = true;
+let sinValor;
+let valorNulo = null;
+let idUnico = Symbol("id");</code></pre>
+  </section>
+
+  <section class="section section1">
+    <h2>Operaciones con datos primitivos</h2>
+    <p class="p2">
+      En JavaScript, los datos primitivos (o tipos primitivos) son valores simples que no son objetos y no tienen métodos propios. Son inmutables, lo que significa que no pueden ser modificados directamente una vez creados. Hay seis tipos primitivos: número, cadena, booleano, undefined, null y símbolo. 
+    </p>
+    <pre><code>let a = 10;
+let b = 5;
+let suma = a + b;          // 15
+let texto = "Hola " + "JS"; // "Hola JS"
+let esIgual = (a === b);   // false</code></pre>
+  </section>
+
+  <section class="section section2">
+    <h2>Importancia de los datos primitivos</h2>
+    <p class="p2">
+      Entender los datos primitivos es fundamental para programar en JavaScript, ya que son la base para manipular información y construir estructuras más complejas como objetos y arrays En JavaScript, los datos primitivos son los tipos de datos más básicos e inmutables. Son la base para construir estructuras de datos más complejas y son esenciales para el funcionamiento del lenguaje. Comprenderlos es crucial para escribir código JavaScript eficiente y fiable. 
+    </p>
+  </section>
+</body>
+</html>
