@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enciclopedia: JavaScript - Sintaxis Básica</title>
+  <link rel="stylesheet" href="../style/style2.css" />
+</head>
+<body>
+  <h1>JavaScript</h1>
+
+  <section class="section section1">
+    <h2>Sintaxis Básica de JavaScript</h2>
+    <p class="p2">
+      La sintaxis básica de JavaScript define cómo escribir instrucciones para que el navegador pueda interpretarlas y ejecutarlas correctamente. JavaScript es un lenguaje sensible a mayúsculas y minúsculas, por lo que <code>Variable</code> y <code>variable</code> son diferentes.
+      A continuación se presentan algunos elementos básicos de la sintaxis de JavaScript La sintaxis básica de JavaScript incluye el uso de declaraciones terminadas en punto y coma (aunque a menudo son opcionales), distinción entre mayúsculas y minúsculas, y el uso de llaves {} para bloques de código. JavaScript utiliza nombres de variables y funciones con símbolos alfanuméricos y guiones bajos, y tiene operadores aritméticos, de comparación y lógicos similares a C y Java. 
+    </p>
+  </section>
+
+  <section class="section section2">
+    <h2>Variables y tipos de datos</h2>
+    <ul class="spacing-1line">
+      <li>Para declarar variables se utilizan las palabras clave <code>var</code>, <code>let</code> y <code>const</code>.</li>
+      <li>JavaScript tiene tipos de datos como <code>number</code>, <code>string</code>, <code>boolean</code>, <code>null</code>, <code>undefined</code> y <code>object</code>.</li>
+      <li>Ejemplo de declaración de variables:</li>
+    </ul>
+    <pre><code>let nombre = "Juan";
+const edad = 30;
+var esEstudiante = true;</code></pre>
+  </section>
+
+  <section class="section section3">
+    <h2>Estructuras de control</h2>
+    <p class="p2">
+      JavaScript utiliza estructuras de control como <code>if</code>, <code>else</code>, <code>switch</code>, y bucles como <code>for</code>, <code>while</code> para controlar el flujo del programa.
+
+      <img src="../image/sintaxis.png" class="img-fluid border" alt="Hola Mundo">
+    </p>
+
+  </section>
+
+  <section class="section section1">
+    <h2>Funciones</h2>
+    <p class="p2">
+      Las funciones son bloques reutilizables de código que realizan una tarea específica. Se pueden declarar de diferentes formas:
+    </p>
+    <pre><code>function saludar(nombre) {
+  return "Hola, " + nombre + "!";
+}
+
+const suma = (a, b) => a + b;
+
+console.log(saludar("Ana"));
+console.log(suma(5, 3));</code></pre>
+  </section>
+
+  <section class="section section2">
+    <h2>Comentarios</h2>
+    <p class="p2">
+      En JavaScript, hay dos tipos de comentarios: de una sola línea y de múltiples líneas. Los comentarios son líneas de código que el intérprete ignora, y se utilizan para agregar notas explicativas al código
+    </p>
+    <pre><code>Se utilizan para agregar comentarios breves en una sola línea. Se indican con dos barras diagonales (//) al principio de la línea. Todo lo que sigue a // hasta el final de la línea se considera un comentario y no se ejecutará. 
+
+/*
+  Comentario
+  de varias líneas
+*/</code></pre>
+  </section>
+
+  <section class="section section3">
+    <h2>Ejemplo completo simple</h2>
+     <img src="../image/sintaxisejemplo.png" class="img-fluid border" alt="Hola Mundo">
+    <p class="p2">Este código declara una variable <code>nombre</code> y muestra un saludo personalizado en la consola.</p>
+  </section>
+</body>
+</html>
